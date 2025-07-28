@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\carda\\OneDrive\\Documentos\\BlazorRepo\\BlazorWebApp\\BlazorApp\\BlazorApp.csproj": {}
+    "c:\\Users\\carda\\OneDrive\\Documentos\\BlazorProject\\BlazorWebApp\\BlazorApp\\BlazorApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\carda\\OneDrive\\Documentos\\BlazorRepo\\BlazorWebApp\\BlazorApp\\BlazorApp.csproj": {
+    "c:\\Users\\carda\\OneDrive\\Documentos\\BlazorProject\\BlazorWebApp\\BlazorApp\\BlazorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\carda\\OneDrive\\Documentos\\BlazorRepo\\BlazorWebApp\\BlazorApp\\BlazorApp.csproj",
+        "projectUniqueName": "c:\\Users\\carda\\OneDrive\\Documentos\\BlazorProject\\BlazorWebApp\\BlazorApp\\BlazorApp.csproj",
         "projectName": "BlazorApp",
-        "projectPath": "c:\\Users\\carda\\OneDrive\\Documentos\\BlazorRepo\\BlazorWebApp\\BlazorApp\\BlazorApp.csproj",
+        "projectPath": "c:\\Users\\carda\\OneDrive\\Documentos\\BlazorProject\\BlazorWebApp\\BlazorApp\\BlazorApp.csproj",
         "packagesPath": "C:\\Users\\carda\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\carda\\OneDrive\\Documentos\\BlazorRepo\\BlazorWebApp\\BlazorApp\\obj\\",
+        "outputPath": "c:\\Users\\carda\\OneDrive\\Documentos\\BlazorProject\\BlazorWebApp\\BlazorApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carda\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,0 +1,41 @@
+﻿@page "/documentos"
+@inject DocumentoService DocumentoService
+
+<h3>Documentos</h3>
+
+@if (documentos == null)
+{
+    <p>Cargando datos...</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Descripción</th>
+                <th>¿Activa?</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var doc in documentos)
+            {
+                <tr>
+                    <td>@doc.Codigo</td>
+                    <td>@doc.Descripcion</td>
+                    <td>@doc.VActiva</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Documento> documentos;
+
+    protected override async Task OnInitializedAsync()
+    {
+        documentos = await DocumentoService.GetDocumentosAsync();
+    }
+}
+
